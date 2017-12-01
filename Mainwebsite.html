@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .w3-sidebar w3-light-gray w3-bar-block {
+            margin: 5px 3px;
+        }
+
+        h1 {
+            text-align:center;
+        }
+        body {
+            background-image: url('images/Savin-NY-Website-Background-Web.jpg');
+        }
+
+    </style>
+</head>
+<title> EE17
+</title>
+<body>
+
+  <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Stäng &times;</button>
+  <a href="Index.html" class="w3-bar-item w3-button">Hem</a>
+  <a href="Osv.html" class="w3-bar-item w3-button">Kommentarer</a>
+  <a href="Info.html"class="w3-bar-item w3-button">Info/kontakta</a>
+  </div>
+
+    <div class="w3-blue">
+      <button class="w3-button w3-grey w3-xlarge" onclick="w3_open()">☰</button>
+      <div class="w3-container">
+      <h1>EE17 Klasshemsida</h1>
+      </div>
+    </div>
+
+    <h2 style="text-align:center">Varför gjorde jag denna sida?</h2>
+        <p style="text-align:center;">Jag, David Almqvist gjorde denna sida just för att lära mig html men också för att det känns bra att skryta lite.
+         </br>Jag har ingen plan för den här hemsidan eftersom jag bara planerat att lära mig html.
+         </br>Denna sida är bara för att lära mig och exprimentera en del. Har planerat att göra en lätt instruktion för er som vill lära er.
+         </br>Varför jag skriver detta är för att få filler så det ser bra ut på hemsidan, he he...
+    </p>
+
+
+    <div style="text-align:center">
+        <script language="JavaScript">
+            var data = '&r=' + escape(document.referrer)
+                + '&n=' + escape(navigator.userAgent)
+                + '&p=' + escape(navigator.userAgent)
+                + '&g=' + escape(document.location.href);
+
+            if (navigator.userAgent.substring(0, 1) > '3')
+                data = data + '&sd=' + screen.colorDepth
+                    + '&sw=' + escape(screen.width + 'x' + screen.height);
+
+            document.write('<a href="http://www.1freecounter.com/stats.php?i=130373" target=\"_blank\" >');
+            document.write('<img alt="Free Counter" border=0 hspace=0 ' + 'vspace=0 src="http://www.1freecounter.com/counter.php?i=130373' + data + '">');
+            document.write('</a>');
+        </script>
+    </div>
+    <script>
+          function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          }
+          function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          }
+    </script>
+
+</body>
+</html>
