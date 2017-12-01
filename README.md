@@ -1,6 +1,6 @@
 # Site
 My first website, its in Swedish. 
-Copy the text in translate and review my work i you want, 
+Copy the text in translate and review my work if you want, 
 I learned all this by myself and with no other help than a bit of google searching.
 Please tell me what you think!
 
