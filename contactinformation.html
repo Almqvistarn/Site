@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <style>
+     body {
+       text-align: left;
+       font-family: arial;
+     }
+   </style>
+</head
+<body>
+
+  <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Stäng &times;</button>
+  <a href="Index.html" class="w3-bar-item w3-button">Hem</a>
+  <a href="Osv.html" class="w3-bar-item w3-button">Kommentarer</a>
+  <a href="Info.html"class="w3-bar-item w3-button">Info/kontakta</a>
+  </div>
+
+  <div class="w3-blue">
+    <button class="w3-button w3-grey w3-xlarge" onclick="w3_open()">☰</button>
+    <div class="w3-container">
+    <h1>Info!</h1>
+    </div>
+  </div>
+
+<h6>
+  <ul>
+    <li>Skapare och kodare: David Almqvist<li>
+    <p> Kontakta David på hans email David.Almqvistarn@gmail.com eller kontakta honom direkt från hemsidan.</p>
+    <p> Testare/lärling: Max Eriksson </p>
+    <p> Kontakta Max på hans email Max.ge@gmail.com
+  </ul>
+</h6>
+<div style:"text-align:right;">
+  <!-- Do not change the code! -->
+<a id="foxyform_embed_link_911264" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=911264&sec_hash=bf2d1f87814&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
+</div>
+<script>
+      function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+      }
+      function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+      }
+</script>
+</body>
+</html>
